@@ -1,0 +1,25 @@
+{
+  "name": "deerstreet-dashboard-client",
+  "version": "1.0.0",
+  "description": "App frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/vbabic/deerstreet-dashboard-client.git"
+  },
+  "author": "Vjeko Babic",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vbabic/deerstreet-dashboard-client#readme",
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-prompt": "^0.1.2",
+    "gulp-replace-task": "^0.10.1",
+    "gulp-uglify": "^1.4.0",
+    "yargs": "^3.23.0"
+  }
+}

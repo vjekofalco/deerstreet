@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body {
+	background-color:#ECECEC !important;
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+}
+
+h1 {
+	font-weight:100;
+	margin-left:20px;
+}
+
+h2 {
+	font-weight:100;
+}
+
+#header{
+	background-color: #000000;
+	color: #FFFFFF;
+	min-height: 78px;
+	max-height: 78px;
+}
+
+#searchBox{
+	position: absolute;
+	z-index: 999;
+	right: 1%;
+}
+
+#search{
+	width: 200px;
+  	height: 30px;
+  	direction: none;
+  	border: 1px solid #000000;
+  	background-color: #F7F7F7;
+  	color: #5A5A5A;
+  	padding-left: 10px;
+}
+
+.inline-element{
+	display: inline;
+}
+
+#header-left-holder{
+	top: 32%;
+    right: 1%;
+    position: absolute;
+}
+
+#lineChartHolder, #donutChartHolder{
+	padding-top: 1%;
+	position: relative;
+	width: 97% !important;
+	margin: 0 auto;
+}
+
+ #donutChartHolder{
+ 	
+ 	background-color: #F7F7F7;
+ 	min-height: 300px;
+	overflow: auto;
+	margin-top: 1%;
+ }
+
+#lineChartHeader{
+	color: #D4D4D4;
+}
+
+#lineChart{
+	margin-top: 1%;
+	padding-top: 4%;
+	background-color: #FFFFFF;
+}
+
+ul.line-legend{
+	text-align: left;
+}
+
+ul.line-legend li span {
+	border-radius: 0px;
+}
+
+chart-legend{
+	position: absolute;
+    left: 2%;
+    top: 6%;
+}
+
+.donutCharts{
+	color: #CDCDCD;
+	/*background-color: #F7F7F7;
+	height: 300px;*/
+	position: relative
+}
+
+#usedHours:after, #availableOverall:after, #costThisMonth:after{
+	content: '';
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    height: 70%;
+    border-left: 1px solid #DEDEDE;
+}
+
+.footer{
+	background-color: #C6C6C6;
+	height: 40px;
+	border-bottom: 2px solid #1C1C1C !important;
+	color: #676767;
+	position: relative;
+}
+
+#footerItemLeft{
+	position: absolute;
+	left: 0.5%;
+	top: 27%;
+}
+
+#footerItemRight{
+	position: absolute;
+	right: 0.5%;
+	top: 27%;
+}
+
+#footerItemRight a{
+	text-decoration: none !important;
+	cursor: pointer;
+	color: #676767 !important;
+
+}
+
+.glyphicon-menu-left, .glyphicon-menu-right {
+    font-size: 1.7em;
+    color: #515151;
+    cursor: pointer;
+}
+
+#pie{
+	margin-left: -80px;
+	width: 330px;
+	height: 165px;
+}
+
+#pie2{
+	margin-left: -80px;
+	width: 330px;
+	height: 165px;
+}
+
+/*#chart {
+	width:auto;
+	background-color:#ffffff;
+	height:auto;
+	padding:2.5%;
+	margin:1%;
+	position: relative;
+}
+#chart2 {
+	width:auto;
+	background-color:#ffffff;
+	height:auto;
+	margin:1%;
+}
+#chart_float_1 {
+	width:27.5%;
+	background-color:#ffffff;
+	height:auto;
+	float:left;
+	position:relative;
+	left:0px;
+	margin-right:1%;
+	padding:2.5%;
+	height:200px;
+}
+#chart_float_2 {
+	width:27.5%;
+	background-color:#ffffff;
+	height:auto;
+	float:left;
+	left:33px;
+	margin-right:1%;
+	padding:2.5%;
+	height:200px;
+}
+#chart_float_3 {
+	width:27.5%;	
+	background-color:#ffffff;
+	height:auto;
+	float:left;
+	right:0px;
+	padding:2.5%;
+	height:200px;
+}
+
+#legend {
+	width:auto;
+	height:auto;
+	margin-bottom:20px;	
+	position:relative;
+}
+#legend_color {
+	width:20px;
+	height:20px;
+	position:relative;
+	background-color:#4F16C5;	
+}
+#legend_name {
+	width:100px;
+	height:20px;
+	margin-top:-20px;
+	margin-left:30px;	
+}
+
+#pie{
+	responsive: false;
+    maintainAspectRatio: false}
+
+#pie2{
+	responsive: false;
+    maintainAspectRatio: false}
+
+ul.line-legend{
+	text-align: left;
+}
+
+ul.line-legend li span {
+	border-radius: 0px;
+}*/
+
+
